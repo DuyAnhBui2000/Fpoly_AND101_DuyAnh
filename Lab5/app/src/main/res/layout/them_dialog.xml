@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="380dp"
+    android:padding="20dp"
+    android:layout_height="500dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THÊM THỜI GIAN BIỂU"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="#56a8af"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtTieuDe"
+        android:hint="Tiêu đề"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNoiDung"
+        android:hint="Nội dung"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtThoiGian"
+        android:hint="Thời gian"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/btnThemDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:onClick="themLich"
+        />
+</LinearLayout>

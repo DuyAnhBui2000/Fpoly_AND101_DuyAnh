@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="content">Các thành phần cơ bản trong Android:\n1. Activity\n2. Service\n3. ContentProvider\n4. BroadcastReceive</string>
+</resources>

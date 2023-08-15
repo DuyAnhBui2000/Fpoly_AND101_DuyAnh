@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sửa"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etMuc1CapNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mục 1" />
+
+    <EditText
+        android:id="@+id/etMuc2CapNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mục 2" />
+
+    <EditText
+        android:id="@+id/etMuc3CapNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mục 3" />
+
+
+    <Button
+        android:id="@+id/btnCapNhat"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cập Nhật" />
+
+</LinearLayout>
